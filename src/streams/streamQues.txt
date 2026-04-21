@@ -1,0 +1,46 @@
+Convert and Filter:
+
+List<String> names = Arrays.asList("John", "Jane", "Jack", "Doe");
+// Convert to uppercase and filter names starting with 'J'
+
+
+Group By First Letter:
+
+List<String> animals = Arrays.asList("dog", "cat", "cow", "donkey", "deer");
+// Group by first character
+
+
+Find Duplicate Elements
+List<Integer> list = Arrays.asList(1, 2, 3, 2, 4, 1, 5);
+// Find and print duplicate elements using stream
+
+
+Stream from Map:
+Map<String, Integer> map = Map.of("a", 1, "b", 2, "c", 3);
+// Filter entries with value > 1 and print keys
+
+
+Average Age of People:
+class Person {
+    String name;
+    int age;
+    // constructor, getters
+}
+List<Person> people = Arrays.asList(new Person("A", 30), new Person("B", 25));
+// Compute average age
+
+
+Partitioning by Condition:
+List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5, 6);
+// Partition into even and odd numbers
+
+roup items by price bracket ("Cheap", "Moderate", "Expensive") // Group by:
+                                                               // <100 → Cheap
+                                                               // 100–500 → Moderate
+                                                               // >500 → Expensive
+class Item {
+    String name;
+    double price;
+}
+
+
